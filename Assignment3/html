@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Ecommerce</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  
+    <header class="header">
+        <div class="top-bar">
+            <div class="top-bar__left">
+                <p>Call: +99812345678</p>
+            </div>
+            <div class="top-bar__right">
+                <p>
+                    <a href="#"><i class="fas fa-sign-in-alt"></i> Sign in</a> | 
+                    <a href="#"><i class="fas fa-user-plus"></i> Register</a> | 
+                    <a href="#"><i class="fas fa-shopping-cart"></i> Cart</a>
+                </p>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="navbar__brand">Bootstrap Ecommerce</div>
+            <div class="navbar__search">
+                <input type="text" placeholder="Search">
+                <button>Search</button>
+            </div>
+        </nav>
+        <div class="navbar__menu">
+            <ul>
+                <li><a href="#">All Category</a></li>
+                <li><a href="#">Fashion</a></li>
+                <li><a href="#">Supermarket</a></li>
+                <li><a href="#">Electronics</a></li>
+                <li><a href="#">Baby & Toys</a></li>
+                <li><a href="#">Fitness Sport</a></li>
+                <li><a href="#">Clothing</a></li>
+                <li><a href="#">Furnitures</a></li>
+            </ul>
+        </div>
+    </header>
+
+  
+    <main>
+        
+        <section class="banner">
+            <div class="banner__content">
+                <h1>GREAT BANNER</h1>
+                <p>Hey, I am a demo banner just for design</p>
+            </div>
+        </section>
+ 
+        <section class="additional-banner">
+            <div class="additional-banner__content">
+                <h2>Summer Sale!</h2>
+                <p>Up to 50% off on selected items</p>
+            </div>
+        </section>
+
+      
+        <section class="features">
+            <div class="feature">
+                <h3><i class="fas fa-shipping-fast"></i> Fast Delivery</h3>
+                <p>Quick delivery to your doorstep.</p>
+            </div>
+            <div class="feature">
+                <h3><i class="fas fa-lightbulb"></i> Creative Strategy</h3>
+                <p>Innovative shopping experience.</p>
+            </div>
+            <div class="feature">
+                <h3><i class="fas fa-lock"></i> High Security</h3>
+                <p>Secure payments and transactions.</p>
+            </div>
+        </section>
+
+      
+        <section class="popular-products">
+            <h2>Popular Products</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="images/shirt.jpg" alt="Shirt">
+                    <p>Casual Shirt</p>
+                    <span>$25.00</span>
+                </div>
+                <div class="product-item">
+                    <img src="images/jacket.jpg" alt="Jacket">
+                    <p>Winter Jacket</p>
+                    <span>$150.00</span>
+                </div>
+                <div class="product-item">
+                    <img src="images/jeans.jpg" alt="Jeans">
+                    <p>Blue Jeans</p>
+                    <span>$40.00</span>
+                </div>
+                <div class="product-item">
+                    <img src="images/backpack.jpg" alt="Backpack">
+                    <p>Travel Backpack</p>
+                    <span>$75.00</span>
+                </div>
+            </div>
+        </section>
+ 
+        <section class="new-arrivals">
+            <h2>New Arrivals</h2>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="images/laptop.jpg" alt="Laptop">
+                    <p>New Laptop</p>
+                    <span>$1200.00</span>
+                </div>
+                <div class="product-item">
+                    <img src="images/chair.jpg" alt="Chair">
+                    <p>Comfort Chair</p>
+                    <span>$100.00</span>
+                </div>
+                <div class="product-item">
+                    <img src="images/smartwatch.jpg" alt="Smartwatch">
+                    <p>Smartwatch</p>
+                    <span>$250.00</span>
+                </div>
+                <div class="product-item">
+                    <img src="images/headphones.jpg" alt="Headphones">
+                    <p>Wireless Headphones</p>
+                    <span>$200.00</span>
+                </div>
+            </div>
+        </section>
+    </main>
+ 
+    <footer class="footer">
+        <p>&copy; 2024 Bootstrap Ecommerce. All rights reserved.</p>
+    </footer>
+</body>
+</html>
